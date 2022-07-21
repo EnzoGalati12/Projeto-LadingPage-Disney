@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman" ,sans-serif;
+    
+}
+
+img.franquias{  
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+img.logo{
+    max-width: 160px;
+}
+
+.hero-content{
+    padding-left: 80px;
+}
+
+.hero-content > p{
+    color: lightgrey;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+h1{
+    font-family: "Avenir Roman" ,sans-serif;
+    font-size: 43px;
+    line-height: 53px;
+    color : #f9f9f9;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.precos-container{
+    display: flex;
+}
+
+.preco span{
+    font-weight: 700;
+    color: #f9f9f9;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.preco{
+    color: lightgrey;
+    width: 300px;
+   max-width: 100%;
+  
+}
+
+
+
+.preco a{
+    padding: 16.5px 14px;
+    background-color: #0063e5;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #f9f9f9;
+    display: block;
+    transition: .2s ease;
+    font-family: "Avenir Roman" ,sans-serif;
+}
+
+.preco a:hover{
+    background-color: #0483ee;
+}
+
+.preco p{
+    margin-bottom: 16px ;
+}
+
+.preco + .preco{
+    margin-left: 32px;
+}
+
+.preco:first-child{
+    display: grid;
+}
+
+.preco:first-child a{
+    align-self: end;
+}
