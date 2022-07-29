@@ -29,6 +29,7 @@
 
 ## Autor:
 
-<h2>Enzo de Lima Galati</h2>
+<h3>Enzo de Lima Galati</h3>
+<h3>Luigi de Lima Galati</h3>
 
 
